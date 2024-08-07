@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+.contacto {
+  background-color: #ffff;
+  width: 30vw;
+  min-height: 100vh;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.principal {
+  background-color: #e8ebe4;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.principal img {
+  width: 27%;
+  padding-bottom: 20px;
+}
+.principal h1 {
+  font-weight: 400;
+  font-size: xx-large;
+}
+.principal p {
+  font-weight: 100;
+  font-size: medium;
+  text-align: center;
+}
+b {
+  font-weight: 400;
+}
+.usuario {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #bec1bb;
+}
+
+.informacionUsuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconos {
+  padding: 10px;
+}
+.colorIcono {
+  color: #828485;
+}
+.informacionUsuario img {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bec1bb;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+.informacionUsuario p {
+  padding-left: 10px;
+}
+.nombreUsuario {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: #1b1f21;
+  font-size: large;
+}
+.estadoUsuario {
+  font-weight: 100;
+  font-size: small;
+}
+.informacionUsuarioDos {
+  display: flex;
+  margin: 5px;
+  justify-content: space-between;
+  width: 60px;
+}
+.nuevoChat {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #bec1bb;
+}
+
+.nuevoChat button {
+  background-color: #a491d2;
+  padding: 14px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  width: 14vw;
+  min-width: 113px;
+}
+button:hover {
+  background-color: #cdc3e6;
+}
+
+.otrosUsuarios {
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  align-items: center;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #bec1bb;
+}
+.otrosUsuarios img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bec1bb;
+}
+.otrosUsuarios p {
+  padding-left: 10px;
+}
+.nombreUsuarioDos {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: bold;
+  color: #1b1f21;
+  font-size: large;
+}
+.estadoUsuarioDos {
+  color: #444749;
+  font-size: medium;
+  font-weight: 300;
+}
